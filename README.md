@@ -1,4 +1,5 @@
-Freifunk Wetzlar Firmware
+Freifunk Wetzlar Firmware 
+Based on Freifunk Karlsruhe
 ===========================
 
 How To Build
