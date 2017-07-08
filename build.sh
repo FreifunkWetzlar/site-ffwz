@@ -16,6 +16,7 @@
 #NUM_PROCS=x # Anzahl der Prozessoren
 GLUON_RELEASE="v2017.1.1" # Release welches gebaut werden soll
 GLUON_URL=https://github.com/freifunk-gluon/gluon.git
+SITE_URL=https://github.com/freifunkwetzlar/site-ffwz.git #Site for Freifunk Wetzlar
 # Prfen ob wir uns auf Jenkins befinden
 jenkins=false
 [ -n "$JENKINS_HOME" ] && jenkins=true
