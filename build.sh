@@ -69,7 +69,6 @@ cd $WORKSPACE/gluon
 git fetch
 git reset --hard $GLUON_COMMIT
 git checkout $GLUON_COMMIT
-done
 
 # Site-Config in das Gluon-Repo symlinken
 ln -nsf $WORKSPACE/site $WORKSPACE/gluon/site
