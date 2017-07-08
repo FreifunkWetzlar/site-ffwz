@@ -26,7 +26,6 @@ for target in ${OLD_TARGETS}
 do
     make clean GLUON_TARGET=${target} $VERBOSE
 done
-make dirclean
 
 git checkout "${GLUON_CHECKOUT}"
 git pull origin "${GLUON_CHECKOUT}"
@@ -42,5 +41,3 @@ do
     echo -e "Starting to build target \033[32m${target}\033[0m ..."
     make GLUON_TARGET=${target} -j4 $VERBOSE
 done
-
-make manifest $VERBOSE
