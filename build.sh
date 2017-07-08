@@ -14,8 +14,7 @@
 ###############################################################################################
 # Globale Einstellungen
 #NUM_PROCS=x # Anzahl der Prozessoren
-GLUON_COMMIT="5a31cacee4855a4e294e06c21b5c844e9e5d9049" # Commit, der ausgecheckt werden soll
-GLUON_RELEASE="v2017.1" # Release welches gebaut werden soll
+GLUON_RELEASE="v2017.1.1" # Release welches gebaut werden soll
 GLUON_URL=https://github.com/freifunk-gluon/gluon.git
 # Prfen ob wir uns auf Jenkins befinden
 jenkins=false
